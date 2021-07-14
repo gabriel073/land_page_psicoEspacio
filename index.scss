@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1359A6;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EBE7E3;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.sectionTittle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+.sidesPadding {
+    padding: 0 1rem;
+}
+
+.hero {
+    padding-top: 4rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        max-width: 900px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.3px;
+        margin-top: 4rem;
+    }
+}
+
+.comoFunciona {
+    padding-top: 5rem;
+
+    .cardsContainer {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        article {
+            width: 340px;
+            text-align: justify;
+            position: relative;
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                .icon-container {
+                    height: 4rem;
+                    width: 4rem;
+                    border-radius: 50%;
+                    position: absolute;
+                    border: 4.66697px solid #CDD9E5;
+                    padding: .5rem;
+                    top: -.75rem;
+                    z-index: 0;
+                }
+
+                img {
+                    position: absolute;
+                    top: -.5rem;
+                    border-radius: 50%;
+                    z-index: 2;
+                    padding: .35rem;
+                }
+
+                .card-content {
+                    min-height: 219.35px;
+                    border: 4.66697px solid #CDD9E5;
+                    box-sizing: border-box;
+                    border-radius: 9.33394px;
+                    margin: 1.5rem .75rem;
+                    padding: 0 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 1;
+
+                    .mobileText {
+                        display: none;
+                    }
+                }
+        }
+    }
+}
+
+.tiposDeTerapia {
+    padding-top: 5rem;
+
+    .carousel {
+        display: none;
+    }
+
+    .cardsContainer-desktop {
+        max-width: 60rem;
+        margin: auto;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        article {
+            background-color: white;
+            width: 312px;
+            height: 416px;
+            padding: 1rem;
+            margin: 2rem 4rem;
+            border-radius: 10px;
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: .3s;
+
+            &:hover {
+                box-shadow: 0px 4.10402px 12.3121px rgba(0, 0, 0, 0.5);
+                transform: scale(1.05);
+                transition: .3s;
+            }
+
+            .img {
+                width: 249px;
+                height: 152px;
+                border-radius: 10px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+            .cardTittle {
+                margin-top: 1.5rem;
+                background-color: white;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: 0.3px;
+                color: #002E5B;
+            }
+
+            p {
+                text-align: justify;
+                max-width: 250px;
+                background-color: white;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: 0.3px;
+                color: #002E5B;
+            }
+        }
+
+        .individual { .img{background-image: url(./assets/terapiaIndividual.jpeg);} }
+        .juvenil { .img{background-image: url(./assets/terapiaJuvenil.jpeg);} }
+        .pareja { .img{background-image: url(./assets/terapiaDePareja.jpeg);} }
+        .reproduccion { .img{background-image: url(./assets/terapiaReproduccionAsistida.jpeg);} }
+    }
+}
+
+.especializaciones {
+    padding-top: 5rem;
+
+    .cardsContainer {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 80rem;
+            margin: auto;
+
+            .container {
+                margin: 20px;
+                width: auto;
+                height: auto;
+                perspective: 1000px;
+              
+                .card {
+                    transition: transform 1.2s;
+                    transform-style: preserve-3d;
+                    cursor: pointer;
+                    background-color: transparent;
+                    border: none;
+
+                    article {
+                        margin: .5rem;
+                        border-radius: 10px;
+                        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+                        width: 310px;
+                        height: 336px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        position: relative;
+                        cursor: pointer;
+            
+                        .blueFooter {
+                            position: absolute;
+                            bottom: 0;
+                            width: 100%;
+                            height: 64px;
+                            background-color: #00509D;
+                            border-radius: 0 0 10px 10px;
+                            z-index: 1;
+                            opacity: 70%;
+                            transition: 1s;
+                        }
+            
+                        h3 {
+                            text-align: center;
+                            background-color: transparent;
+                            position: absolute;
+                            top: 85.12%;
+                            bottom: 4.17%;
+                            width: 100%;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 36px;
+                            color: white;
+                            z-index: 2;
+                            transition: 1s;
+                        }
+                    }
+                }
+                  
+                .front, .back {
+                    backface-visibility: hidden;
+                    position: absolute;
+                    display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                }
+            
+                .front {
+                    width: 310px;
+                    height: 336px;
+                }
+                  
+                .back {
+                    margin-left: .5rem;
+                    margin-top: .5rem;
+                    transform: rotateY(180deg);
+                    width: 310px;
+                    height: 336px;
+                    background-color: white;
+                    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+                    border-radius: 10px;
+                
+                    h3 {
+                        background-color: white;
+                        font-size: 24px;
+                        line-height: 36px;
+                        text-align: center;
+                        color: #002E5B;
+                    }
+                
+                    p {
+                        background-color: white;
+                        max-width: 250px;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.3px;
+                        color: #002E5B;
+                        text-align: justify;
+                    }
+                }
+            
+                .card-duelo, .card-fobias {
+                    .back{
+                        p {font-size: 14px;}
+                    }
+                }
+            
+                .card-toc {
+                    .back {
+                        p {font-size: 13px;}
+                    }
+                }
+            
+                .card-impulsividad {
+                    .back {
+                        h3 {font-size: 18px;
+                            line-height: 27px;}
+                        p {font-size: 13px;}
+                    }
+                }
+        }
+
+        .depresion {background-image: url(./assets/especializacionesDepresion.jpeg);}
+        .ansiedad {background-image: url(./assets/especializacionesAnsiedad.jpeg);}
+        .panico {background-image: url(./assets/especializacionesPanico.jpeg);}
+        .anorexia {background-image: url(./assets/especializacionesAnorexia.jpeg);}
+        .duelo {background-image: url(./assets/especializacionesDuelo.jpeg);}
+        .estres {background-image: url(./assets/especializacionesEstres.jpeg);}
+        .fobias {background-image: url(./assets/especializacionesFobias.jpeg);}
+        .impulsividad {background-image: url(./assets/especializacionesImpulsividad.jpeg);
+            h3 {
+                font-size: 18px !important;
+                line-height: 18px;
+                top: 86.31%;
+                bottom: 5.65%;
+            }
+        }
+        .insomnio {background-image: url(./assets/especializacionesInsomnio.jpeg);}
+        .sexualidad {background-image: url(./assets/especializacionesSexualidad.jpeg);}
+        .toc {background-image: url(./assets/especializacionesToc.jpeg);
+            h3 {
+                font-size: 18px !important;
+                line-height: 22px !important;
+                top: 82.44%;
+                bottom: 1.49%;
+            }
+        }
+        .bulimia {background-image: url(./assets/especializacionesBulimia.jpeg);}
+        .psicoprofilaxis {background-image: url(./assets/especializacionesPsicoprofilaxis.jpeg);}
+    }
+}
+
+footer {
+    height: 259.78px;
+    width: 100%;
+    background-color: #1359A6;
+    box-shadow: 0px -1px 50px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    & > * {
+        margin: 0 1rem;
+    }
+
+    img {
+        background-color: #1359A6;
+    }
+
+    .mobileLogo {
+        display: none;
+    }
+
+    .desktopLogo {
+        width: 258px;
+    }
+
+    nav {
+        background-color: #1359A6;
+        min-width: 9rem;
+        ul {
+            background-color: #1359A6;
+            padding: 0;
+            margin: 0;
+            li {
+                list-style: none;
+                background-color: #1359A6;
+                color: white;
+                a {
+                    background-color: #1359A6;
+                    color: white;
+                    text-decoration: none;
+                    transition: .3s;
+
+                    &:hover {
+                        color: #9BD3E5;
+                    }
+                }
+            }
+        }
+    }
+
+    div, p {
+        background-color: #1359A6;
+        color: white;
+    }
+
+    .emailAndPayment-container {
+        .desktopEmail {
+            img {
+                margin: 0 .5rem 1rem 0;
+            }
+            display: flex;
+            align-items: center;
+        }
+
+        .paymentMethods {
+            h2 {
+                font-size: 16px;
+                line-height: 18px;
+                background-color: #1359A6;
+                color: white;
+            }
+
+            .icons-container {
+                display: flex;
+                align-items: flex-start;
+
+                .transferencia-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        font-size: 12px;
+                        line-height: 14px;
+                        width: 103px;
+                        text-align: center;
+                        margin-top: .25rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .mobileEmail {
+        display: none;
+    }
+
+    .redes {
+        min-width: 9rem;
+        text-align: center;
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .sectionTittle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.280018px;
+        padding: 1.5rem 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sidesPadding {
+        padding: 0 .5rem;
+    }
+
+    .hero {
+        padding-top: 0;
+        background-color: #00509D;
+        height: auto;
+
+        img {
+            display: none;
+        }
+    
+        p {
+            max-width: auto;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 130.5%;
+            margin: 3rem 0;
+            background-color: #00509D;
+            color: white;
+            text-align: justify;
+            padding: 0 1rem;
+        }
+    }
+
+    .comoFunciona {
+        padding-top: 0;
+        .cardsContainer {
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+    
+            article {
+                background-color: white;
+                width: auto;
+                position: relative;
+                flex-direction: row;
+                box-sizing: border-box;
+                width: 328px;
+                height: 66px;
+                box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                margin: .5rem 0;
+
+                    .icon-container {
+                        display: none;
+                    }
+    
+                    img {
+                        width: 2.25rem;
+                        margin: 0 .75rem;
+                        background-color: white;
+                        position: relative;
+                        top: auto;
+                        border-radius: 50%;
+                        z-index: 0;
+                        padding: 0;
+                    }
+    
+                    .card-content {
+                        background-color: white;
+                        min-height: auto;
+                        border: none;
+                        padding: 0;
+                        
+                        p {
+                            margin: auto 0;
+                            background-color: white;
+                            color: #002E5B;
+                            font-size: 12px;
+                            line-height: 12px;
+                            letter-spacing: 0.280018px;
+                        }
+
+                        .desktopText {
+                            display: none;
+                        }
+
+                        .mobileText {
+                            display: block;
+                        }
+
+                        .highlightedText {
+                            color:#1359A6;
+                            background-color: white;
+                            font-weight: 500;
+                        }
+                    }
+            }
+        }
+    }
+
+    .tiposDeTerapia {
+        padding-top: 0;
+    
+        .cardsContainer-desktop {
+            display: none;
+        }
+
+        .carousel {
+            display: block;
+
+            article {
+                background-color: white;
+                width: 312px;
+                height: 416px;
+                padding: 1rem;
+                margin: 0 auto 2rem auto;
+                border-radius: 10px;
+                box-shadow: 0px 4.10402px 12.3121px rgba(0, 0, 0, 0.5);
+                display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                .img {
+                    width: 249px;
+                    height: 152px;
+                    border-radius: 10px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                }
+        
+                .cardTittle {
+                    margin-top: 1.5rem;
+                    background-color: white;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    letter-spacing: 0.3px;
+                    color: #002E5B;
+                }
+        
+                p {
+                    background-color: white;
+                    font-size: 12px;
+                    line-height: 18px;
+                    letter-spacing: 0.3px;
+                    color: #002E5B;
+                    padding: 0 1rem;
+                    text-align: justify;
+                }
+            }
+        
+            .individual { .img{background-image: url(./assets/terapiaIndividual.jpeg);} }
+            .juvenil { .img{background-image: url(./assets/terapiaJuvenil.jpeg);} }
+            .pareja { .img{background-image: url(./assets/terapiaDePareja.jpeg);} }
+            .reproduccion { .img{background-image: url(./assets/terapiaReproduccionAsistida.jpeg);} }
+
+            .carousel-indicators {
+                position: relative;
+                margin: 0;
+                button {
+                    border-radius: 50%;
+                    width: 18px;
+                    height: 18px;
+                    left: 170px;
+                    background-color: rgba(138, 138, 138, 0.4);
+                }
+
+                .active {
+                    background-color: #1359A6;
+                }
+            }
+        }
+    }
+
+    .especializaciones {
+        padding-top: 0;
+        padding-bottom: 2rem;
+        
+        .cardsContainer {
+            margin-left: -1rem;
+            
+                .container {
+                    margin: .25rem;
+                    width: 10rem;
+                    background-color: transparent;
+
+                    .card {
+    
+                        article {
+                            margin: 0;
+                            border-radius: 5px;
+                            width: 153.92px;
+                            height: 166.83px;
+                
+                            .blueFooter {
+                                height: 31.78px;
+                                border-radius: 0 0 5px 5px;
+                            }
+                
+                            h3 {
+                                font-size: 12px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                
+                    .front {
+                        width: 153.92px;
+                        height: 166.83px;
+                    }
+                      
+                    .back {
+                        margin-left: -1rem;
+                        margin-top: 0;
+                        transform: rotateY(180deg);
+                        width: 153.92px;
+                        height: 166.83px;
+                        background-color: white;
+                        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+                        border-radius: 10px;
+                    
+                        h3 {
+                            background-color: white;
+                            font-size: 12px;
+                            line-height: 12px;
+                            text-align: center;
+                            color: #002E5B;
+                        }
+                    
+                        p {
+                            background-color: white;
+                            max-width: 120px;
+                            font-size: 8px;
+                            line-height: 8px;
+                            letter-spacing: 0.3px;
+                            color: #002E5B;
+                            text-align: justify;
+                        }
+                    }
+                
+                    .card-duelo, .card-fobias {
+                        .back{
+                            p {font-size: 8px;}
+                        }
+                    }
+                
+                    .card-toc {
+                        .front {
+                            h3 {font-size: 12px !important;
+                                line-height: 12px !important;}
+                        }
+                        .back {
+                            p {font-size: 8px;}
+                        }
+                    }
+                
+                    .card-impulsividad {
+                        .front {
+                            h3 {font-size: 10px !important;
+                                line-height: 18x !important;}
+                        }
+                        .back {
+                            h3 {font-size: 10px;
+                                line-height: 27px;}
+                            p {font-size: 8px;}
+                        }
+                    }
+            }
+    
+            .impulsividad {background-image: url(./assets/especializacionesImpulsividad.jpeg);
+                h3 {
+                    font-size: 18px;
+                    line-height: 27px;
+                    top: 86.31%;
+                    bottom: 5.65%;
+                }
+            }
+
+            .toc {background-image: url(./assets/especializacionesToc.jpeg);
+                h3 {
+                    font-size: 18px;
+                    line-height: 27px;
+                    top: 82.44%;
+                    bottom: 1.49%;
+                }
+            }
+
+        }
+    }
+    
+
+}
+
+@media screen and (max-width: 1100px) {
+    footer {
+        height: 76px;
+        width: 100%;
+        background-color: #1359A6;
+        box-shadow: 0px -0.269461px 13.4731px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            background-color: #1359A6;
+        }
+
+        .desktopLogo {
+            display: none;
+        }
+
+        .mobileLogo {
+            display: block;
+            position: absolute;
+            left: 2rem;
+            width: 2rem;
+        }
+    
+        nav {
+            display: none;
+        }
+    
+        div, p, a {
+            background-color: #1359A6;
+            color: white;
+        }
+    
+        .emailAndPayment-container {
+            display: none;
+        }
+
+        .mobileEmail {
+            display: block;
+            p {
+                font-size: 8px;
+                line-height: 5px;
+                letter-spacing: 0.0808383px;
+            }
+        }
+    
+        .redes {
+            p {
+                display: none;
+            }
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                img {
+                    margin: .5rem .25rem;
+                    width: 20px;
+                }
+            }
+        }
+    }
+}

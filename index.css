@@ -1,0 +1,1648 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background-color: #EBE7E3;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.displayNone {
+    display: none;
+}
+
+.sectionTittle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding-bottom: 3rem;
+    margin-left: 4rem;
+    color: #1359A6;
+}
+
+.sidesPadding {
+    padding: 0 1rem;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.hero {
+    padding-top: 4rem;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.hero p {
+    max-width: 900px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+    margin-top: 4rem;
+    color: #1359A6;
+}
+
+.comoFunciona {
+    padding-top: 5rem;
+}
+
+.comoFunciona .cardsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.comoFunciona .cardsContainer article {
+    width: 340px;
+    text-align: justify;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.comoFunciona .cardsContainer article .icon-container {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    border: 4.66697px solid #CDD9E5;
+    padding: .5rem;
+    top: -.75rem;
+    z-index: 2;
+    background-color: #EBE7E3;
+}
+
+.comoFunciona .cardsContainer article img {
+    position: absolute;
+    top: -.5rem;
+    border-radius: 50%;
+    z-index: 4;
+    padding: .35rem;
+    background-color: #EBE7E3;
+}
+
+.comoFunciona .cardsContainer article .card-content {
+    min-height: 219.35px;
+    border: 4.66697px solid #CDD9E5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 9.33394px;
+    margin: 1.5rem .75rem;
+    padding: 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+    background-color: #EBE7E3;
+    color: #00509D;
+}
+
+.comoFunciona .cardsContainer article .card-content .mobileText {
+    display: none;
+}
+
+.tiposDeTerapia {
+    padding-top: 5rem;
+}
+
+.tiposDeTerapia .carousel {
+    display: none;
+}
+
+.tiposDeTerapia .cardsContainer-desktop {
+    max-width: 60rem;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.tiposDeTerapia .cardsContainer-desktop article {
+    background-color: white;
+    width: 312px;
+    height: 416px;
+    padding: 1rem;
+    margin: 2rem 4rem;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.tiposDeTerapia .cardsContainer-desktop article:hover {
+    -webkit-box-shadow: 0px 4.10402px 12.3121px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4.10402px 12.3121px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.tiposDeTerapia .cardsContainer-desktop article .img {
+    width: 249px;
+    height: 152px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.tiposDeTerapia .cardsContainer-desktop article .cardTittle {
+    margin-top: 1.5rem;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+    color: #002E5B;
+}
+
+.tiposDeTerapia .cardsContainer-desktop article p {
+    text-align: justify;
+    max-width: 250px;
+    background-color: white;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #002E5B;
+}
+
+.tiposDeTerapia .cardsContainer-desktop .individual .img {
+    background-image: url(./assets/terapiaIndividual.jpeg);
+}
+
+.tiposDeTerapia .cardsContainer-desktop .juvenil .img {
+    background-image: url(./assets/terapiaJuvenil.jpeg);
+}
+
+.tiposDeTerapia .cardsContainer-desktop .pareja .img {
+    background-image: url(./assets/terapiaDePareja.jpeg);
+}
+
+.tiposDeTerapia .cardsContainer-desktop .reproduccion .img {
+    background-image: url(./assets/terapiaReproduccionAsistida.jpeg);
+}
+
+.especializaciones {
+    padding-top: 5rem;
+}
+
+.especializaciones .cardsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.especializaciones .cardsContainer .container {
+    margin: 20px;
+    width: auto;
+    height: auto;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.especializaciones .cardsContainer .container .card {
+    -webkit-transition: -webkit-transform 1.2s;
+    transition: -webkit-transform 1.2s;
+    transition: transform 1.2s;
+    transition: transform 1.2s, -webkit-transform 1.2s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.especializaciones .cardsContainer .container .card article {
+    margin: .5rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 336px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+.especializaciones .cardsContainer .container .card article .blueFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 64px;
+    background-color: #00509D;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+    opacity: 70%;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.especializaciones .cardsContainer .container .card article h3 {
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    top: 85.12%;
+    bottom: 4.17%;
+    width: 100%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    z-index: 2;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.especializaciones .cardsContainer .container .front,
+.especializaciones .cardsContainer .container .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.especializaciones .cardsContainer .container .front {
+    width: 310px;
+    height: 336px;
+}
+
+.especializaciones .cardsContainer .container .back {
+    margin-left: .5rem;
+    margin-top: .5rem;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    width: 310px;
+    height: 336px;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.especializaciones .cardsContainer .container .back h3 {
+    background-color: white;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #002E5B;
+}
+
+.especializaciones .cardsContainer .container .back p {
+    background-color: white;
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #002E5B;
+    text-align: center;
+}
+
+.especializaciones .cardsContainer .container .card-duelo .back p,
+.especializaciones .cardsContainer .container .card-fobias .back p {
+    font-size: 14px;
+}
+
+.especializaciones .cardsContainer .container .card-toc .back p {
+    font-size: 13px;
+}
+
+.especializaciones .cardsContainer .container .card-impulsividad .back h3 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.especializaciones .cardsContainer .container .card-impulsividad .back p {
+    font-size: 13px;
+}
+
+.especializaciones .cardsContainer .depresion {
+    background-image: url(./assets/especializacionesDepresion.jpeg);
+}
+
+.especializaciones .cardsContainer .ansiedad {
+    background-image: url(./assets/especializacionesAnsiedad.jpeg);
+}
+
+.especializaciones .cardsContainer .panico {
+    background-image: url(./assets/especializacionesPanico.jpeg);
+}
+
+.especializaciones .cardsContainer .anorexia {
+    background-image: url(./assets/especializacionesAnorexia.jpeg);
+}
+
+.especializaciones .cardsContainer .duelo {
+    background-image: url(./assets/especializacionesDuelo.jpeg);
+}
+
+.especializaciones .cardsContainer .estres {
+    background-image: url(./assets/especializacionesEstres.jpeg);
+}
+
+.especializaciones .cardsContainer .fobias {
+    background-image: url(./assets/especializacionesFobias.jpeg);
+}
+
+.especializaciones .cardsContainer .impulsividad {
+    background-image: url(./assets/especializacionesImpulsividad.jpeg);
+}
+
+.especializaciones .cardsContainer .impulsividad h3 {
+    font-size: 18px !important;
+    line-height: 18px;
+    top: 86.31%;
+    bottom: 5.65%;
+}
+
+.especializaciones .cardsContainer .insomnio {
+    background-image: url(./assets/especializacionesInsomnio.jpeg);
+}
+
+.especializaciones .cardsContainer .sexualidad {
+    background-image: url(./assets/especializacionesSexualidad.jpeg);
+}
+
+.especializaciones .cardsContainer .toc {
+    background-image: url(./assets/especializacionesToc.jpeg);
+}
+
+.especializaciones .cardsContainer .toc h3 {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    top: 82.44%;
+    bottom: 1.49%;
+}
+
+.especializaciones .cardsContainer .bulimia {
+    background-image: url(./assets/especializacionesBulimia.jpeg);
+}
+
+.especializaciones .cardsContainer .psicoprofilaxis {
+    background-image: url(./assets/especializacionesPsicoprofilaxis.jpeg);
+}
+
+footer {
+    height: 259.78px;
+    width: 100%;
+    background-color: #1359A6;
+    -webkit-box-shadow: 0px -1px 50px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -1px 50px rgba(0, 0, 0, 0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+footer>* {
+    margin: 0 1rem;
+}
+
+footer img {
+    background-color: #1359A6;
+}
+
+footer .mobileLogo {
+    display: none;
+}
+
+footer .desktopLogo {
+    width: 258px;
+}
+
+footer nav {
+    background-color: #1359A6;
+    min-width: 9rem;
+}
+
+footer nav ul {
+    background-color: #1359A6;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    list-style: none;
+    background-color: #1359A6;
+    color: white;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+footer nav ul li a:hover {
+    color: #9BD3E5;
+}
+
+footer div,
+footer p {
+    background-color: #1359A6;
+    color: white;
+}
+
+footer .emailAndPayment-container .desktopEmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer .emailAndPayment-container .desktopEmail img {
+    margin: 0 .5rem 1rem 0;
+}
+
+footer .emailAndPayment-container .paymentMethods h2 {
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #1359A6;
+    color: white;
+}
+
+footer .emailAndPayment-container .paymentMethods .icons-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+footer .emailAndPayment-container .paymentMethods .icons-container .transferencia-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer .emailAndPayment-container .paymentMethods .icons-container .transferencia-container p {
+    font-size: 12px;
+    line-height: 14px;
+    width: 103px;
+    text-align: center;
+    margin-top: .25rem;
+}
+
+footer .mobileEmail {
+    display: none;
+}
+
+footer .redes {
+    min-width: 9rem;
+    text-align: center;
+}
+
+footer .redes div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 767px) {
+    .sectionTittle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.280018px;
+        padding: 1.5rem 0;
+        margin: 0;
+        text-align: center;
+    }
+    .sidesPadding {
+        padding: 0 .5rem;
+    }
+    .hero {
+        padding-top: 0;
+        background-color: #00509D;
+        height: auto;
+    }
+    .hero img {
+        display: none;
+    }
+    .hero p {
+        max-width: auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130.5%;
+        margin: 3rem 0;
+        background-color: #00509D;
+        color: white;
+        text-align: justify;
+        padding: 0 1rem;
+    }
+    .comoFunciona {
+        padding-top: 0;
+    }
+    .comoFunciona .cardsContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .comoFunciona .cardsContainer article {
+        background-color: white;
+        width: auto;
+        position: relative;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 328px;
+        height: 66px;
+        -webkit-box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin: .5rem 0;
+    }
+    .comoFunciona .cardsContainer article .icon-container {
+        display: none;
+    }
+    .comoFunciona .cardsContainer article img {
+        width: 2.25rem;
+        margin: 0 .75rem;
+        background-color: white;
+        position: relative;
+        top: auto;
+        border-radius: 50%;
+        z-index: 0;
+        padding: 0;
+    }
+    .comoFunciona .cardsContainer article .card-content {
+        background-color: white;
+        min-height: auto;
+        border: none;
+        padding: 0;
+    }
+    .comoFunciona .cardsContainer article .card-content p {
+        margin: auto 0;
+        background-color: white;
+        color: #002E5B;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.280018px;
+    }
+    .comoFunciona .cardsContainer article .card-content .desktopText {
+        display: none;
+    }
+    .comoFunciona .cardsContainer article .card-content .mobileText {
+        display: block;
+    }
+    .comoFunciona .cardsContainer article .card-content .highlightedText {
+        color: #1359A6;
+        background-color: white;
+        font-weight: 500;
+    }
+    .tiposDeTerapia {
+        padding-top: 0;
+    }
+    .tiposDeTerapia .cardsContainer-desktop {
+        display: none;
+    }
+    .tiposDeTerapia .carousel {
+        display: block;
+    }
+    .tiposDeTerapia .carousel article {
+        background-color: white;
+        width: 312px;
+        height: 416px;
+        padding: 1rem;
+        margin: 0 auto 2rem auto;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 4.10402px 12.3121px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 4.10402px 12.3121px rgba(0, 0, 0, 0.5);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .tiposDeTerapia .carousel article .img {
+        width: 249px;
+        height: 152px;
+        border-radius: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .tiposDeTerapia .carousel article .cardTittle {
+        margin-top: 1.5rem;
+        background-color: white;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.3px;
+        color: #002E5B;
+    }
+    .tiposDeTerapia .carousel article p {
+        background-color: white;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.3px;
+        color: #002E5B;
+        padding: 0 1rem;
+        text-align: justify;
+    }
+    .tiposDeTerapia .carousel .individual .img {
+        background-image: url(./assets/terapiaIndividual.jpeg);
+    }
+    .tiposDeTerapia .carousel .juvenil .img {
+        background-image: url(./assets/terapiaJuvenil.jpeg);
+    }
+    .tiposDeTerapia .carousel .pareja .img {
+        background-image: url(./assets/terapiaDePareja.jpeg);
+    }
+    .tiposDeTerapia .carousel .reproduccion .img {
+        background-image: url(./assets/terapiaReproduccionAsistida.jpeg);
+    }
+    .tiposDeTerapia .carousel .carousel-indicators {
+        position: relative;
+        margin: 0;
+    }
+    .tiposDeTerapia .carousel .carousel-indicators button {
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        left: 170px;
+        background-color: rgba(138, 138, 138, 0.4);
+    }
+    .tiposDeTerapia .carousel .carousel-indicators .active {
+        background-color: #1359A6;
+    }
+    .especializaciones {
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .especializaciones .cardsContainer {
+        margin-left: -1rem;
+    }
+    .especializaciones .cardsContainer .container {
+        margin: .25rem;
+        width: 10rem;
+        background-color: transparent;
+    }
+    .especializaciones .cardsContainer .container .card article {
+        margin: 0;
+        border-radius: 5px;
+        width: 153.92px;
+        height: 166.83px;
+    }
+    .especializaciones .cardsContainer .container .card article .blueFooter {
+        height: 31.78px;
+        border-radius: 0 0 5px 5px;
+    }
+    .especializaciones .cardsContainer .container .card article h3 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .especializaciones .cardsContainer .container .front {
+        width: 153.92px;
+        height: 166.83px;
+    }
+    .especializaciones .cardsContainer .container .back {
+        margin-left: -1rem;
+        margin-top: 0;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        width: 153.92px;
+        height: 166.83px;
+        background-color: white;
+        -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    .especializaciones .cardsContainer .container .back h3 {
+        background-color: white;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: #002E5B;
+    }
+    .especializaciones .cardsContainer .container .back p {
+        background-color: white;
+        max-width: 120px;
+        font-size: 8px;
+        line-height: 8px;
+        letter-spacing: 0.3px;
+        color: #002E5B;
+        text-align: center;
+    }
+    .especializaciones .cardsContainer .container .card-duelo .back p,
+    .especializaciones .cardsContainer .container .card-fobias .back p {
+        font-size: 8px;
+    }
+    .especializaciones .cardsContainer .container .card-toc .front h3 {
+        font-size: 12px !important;
+        line-height: 12px !important;
+    }
+    .especializaciones .cardsContainer .container .card-toc .back p {
+        font-size: 8px;
+    }
+    .especializaciones .cardsContainer .container .card-impulsividad .front h3 {
+        font-size: 10px !important;
+        line-height: 18x !important;
+    }
+    .especializaciones .cardsContainer .container .card-impulsividad .back h3 {
+        font-size: 10px;
+        line-height: 27px;
+    }
+    .especializaciones .cardsContainer .container .card-impulsividad .back p {
+        font-size: 8px;
+    }
+    .especializaciones .cardsContainer .impulsividad {
+        background-image: url(./assets/especializacionesImpulsividad.jpeg);
+    }
+    .especializaciones .cardsContainer .impulsividad h3 {
+        font-size: 18px;
+        line-height: 27px;
+        top: 86.31%;
+        bottom: 5.65%;
+    }
+    .especializaciones .cardsContainer .toc {
+        background-image: url(./assets/especializacionesToc.jpeg);
+    }
+    .especializaciones .cardsContainer .toc h3 {
+        font-size: 18px;
+        line-height: 27px;
+        top: 82.44%;
+        bottom: 1.49%;
+    }
+    .menuv2 {
+        display: flex !important;
+        justify-content: center !important;
+        position: relative;
+    }
+    .menuv2 .logoMenu {
+        position: absolute;
+        top: 0;
+        left: 2rem;
+    }
+    .navbar-nav {
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    footer {
+        height: 76px;
+        width: 100%;
+        background-color: #1359A6;
+        -webkit-box-shadow: 0px -0.26946px 13.4731px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px -0.26946px 13.4731px rgba(0, 0, 0, 0.15);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    footer img {
+        background-color: #1359A6;
+    }
+    footer .desktopLogo {
+        display: none;
+    }
+    footer .mobileLogo {
+        display: block;
+        position: absolute;
+        left: 2rem;
+        width: 2rem;
+    }
+    footer nav {
+        display: none;
+    }
+    footer div,
+    footer p,
+    footer a {
+        background-color: #1359A6;
+        color: white;
+    }
+    footer .emailAndPayment-container {
+        display: none;
+    }
+    footer .mobileEmail {
+        display: block;
+    }
+    footer .mobileEmail p {
+        font-size: 8px;
+        line-height: 5px;
+        letter-spacing: 0.0808383px;
+    }
+    footer .redes p {
+        display: none;
+    }
+    footer .redes div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    footer .redes div img {
+        margin: .5rem .25rem;
+        width: 20px;
+    }
+}
+
+
+/*# sourceMappingURL=index.css.map */
+
+
+/* ********************** ESTILOS GABRIEL ************************ */
+
+h2 {
+    margin-left: 15px;
+}
+
+
+/* ********************** HEADER ********************************* */
+
+.contMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav-link:hover {
+    color: #e4eaf0;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.menu {
+    background-color: #1359A6;
+}
+
+#menu {
+    color: #FFFFFF;
+}
+
+#menu:hover {
+    color: #B5D9D7;
+}
+
+.menu a {
+    color: #FFFFFF;
+}
+
+.menu img {
+    width: 140px;
+    color: white;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.desplegable {
+    background-color: #1359A6;
+}
+
+
+/* ********************** MAIN ********************************* */
+
+.seccionServicios {
+    margin-top: 100px;
+    width: auto;
+}
+
+.containerFrase {
+    width: 300px;
+}
+
+.imgPrincipal {
+    width: 600px;
+    margin-left: 420px;
+    margin-top: -80px;
+}
+
+.imgPrincipal2 {
+    display: none;
+}
+
+.textoFrase {
+    font-family: quicksand, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 35px;
+    letter-spacing: 1.6px;
+    color: #1359A6;
+    width: 600px;
+}
+
+.fraseCambiar {
+    color: #30CFD0;
+    font-family: quicksand, sans-serif;
+    font-weight: bold;
+    width: 500px;
+    letter-spacing: 1.6px;
+}
+
+.victor {
+    font-size: 24px;
+    color: #1359A6;
+    letter-spacing: 0px;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.btn-ayudar {
+    background-color: #1359A6;
+    border-radius: 10px;
+    width: 330px;
+    justify-content: flex-start;
+}
+
+.containerQuienesSomos {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleQuienes {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    color: #00509D;
+}
+
+.pQuienes {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: justify;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #515151;
+    width: 1100px;
+}
+
+.seccionNosotras {
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #002E5B;
+}
+
+.card-text {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #002E5B;
+}
+
+.btnInfo {
+    font-family: Quicksand, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    width: 180px;
+    margin-left: 80px;
+    display: flex;
+    letter-spacing: 0.3px;
+    color: #1359A6;
+    border: #1359A6 solid 2px;
+}
+
+.pPsicos {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0px;
+    color: #002E5B;
+}
+
+.pPsicosR {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0px;
+    color: #002E5B;
+    margin-bottom: 50px;
+}
+
+.btn-contactanos {
+    margin-right: 40px;
+}
+
+.btn-contactanos a {
+    text-decoration: none;
+}
+
+.btn-contactanos:hover {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(68, 66, 66, 0.596);
+}
+
+.btn-contactanos:hover a {
+    color: #1359A6;
+    text-decoration: none;
+}
+
+.btn-contactanos:hover {
+    box-shadow: 6px 6px 6px 6px rgba(68, 66, 66, 0.596);
+}
+
+.btn-ayudar a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-ayudar:hover {
+    box-shadow: 6px 6px 6px rgba(68, 66, 66, 0.596);
+}
+
+.imgPsicoE {
+    width: 170px;
+    border-radius: 10px;
+    margin-left: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.imgPsicoR {
+    width: 170px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 90px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cardPsicos {
+    padding: 50px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card1 {
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+
+.card2 {
+    display: inline;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    margin-left: 750px;
+}
+
+.iconContact {
+    width: 35px;
+    margin: 10px;
+}
+
+.iconMail {
+    width: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.arrowUp {
+    width: 50px;
+    margin-bottom: 40px;
+    margin-left: 95%;
+}
+
+
+/* ******************** TESTIMONIOS ************************ */
+
+.titleTest {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #FEFCFB;
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+.testim {
+    background-color: #1359A6;
+    height: 400px;
+    color: white;
+}
+
+.testimP {
+    padding: 160px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.testimPa {
+    padding: 160px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.pAnonimoA,
+.pAnonimo {
+    margin-top: -150px;
+    margin-left: 160px;
+    padding-bottom: 60px;
+}
+
+.imgServicios {
+    width: 500px;
+}
+
+.containerServicios {
+    width: 400px;
+    height: 500px;
+}
+
+
+/* ************************ FORMULARIO ************************* */
+
+.titleContac {
+    padding-top: 80px;
+    margin-bottom: 50px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #083A70;
+}
+
+.comillas {
+    position: absolute;
+    left: 45%;
+    right: 12.5%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
+
+.textoLabel {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    letter-spacing: 0.3px;
+    color: #00509D;
+}
+
+.fondoForm {
+    height: 817px;
+}
+
+.imgForm {
+    height: 350px;
+}
+
+.conteinerForm {
+    background-size: cover;
+    background-image: linear-gradient( 0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./assets/Fondo\ formulario.jpg)!important;
+    backdrop-filter: blur(23px);
+    background-repeat: no-repeat;
+    padding-top: -30px;
+    margin-top: -30px;
+}
+
+.conteinerForm img::before {
+    background-color: rgba(245, 233, 233, 0.911)
+}
+
+.pForm {
+    margin-top: 250px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #00509D;
+}
+
+
+/* *********************** MEDIA QUERIES ******************************* */
+
+@media only screen and (max-width: 767px) {
+    .menu {
+        /* display: block;
+        flex-wrap: nowrap; */
+        font-size: 9px;
+    }
+    .btn-contactanos {
+        flex-wrap: nowrap;
+        font-size: 12px;
+        margin-right: -10px;
+        padding: 5px;
+    }
+    .logoMenu {
+        margin-left: 40px;
+    }
+    .desplegable {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: -40px;
+        background-color: #1359A6;
+    }
+    .desplegableServicios {
+        background-color: #1359A6;
+    }
+    .containerServicios {
+        flex-direction: row;
+        Width: 300px;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        top: -80px;
+    }
+    .imgPrincipal {
+        display: none;
+    }
+    .imgPrincipal2 {
+        display: block;
+        width: 300px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .textoFrase {
+        Width: 300px;
+        font-size: 22px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        font-weight: 700;
+        width: 370px;
+        margin-left: -10px;
+        margin-top: -30px;
+    }
+    .fraseCambiar {
+        flex-wrap: nowrap;
+        letter-spacing: 1.3px;
+    }
+    .victor {
+        font-size: 16px;
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+    .btn-ayudar {
+        font-size: 12px;
+        font-weight: 600;
+        justify-content: flex-start;
+        text-align: center;
+        width: 260px;
+    }
+    /* ******************* QUIENES SOMOS - MEDIA QUERIES **************************** */
+    .containerQuienesSomos {
+        margin-top: -60px;
+        padding-top: 10px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .pQuienes {
+        margin-left: -95px;
+        font-size: 16px;
+        width: 380px;
+        line-height: 22px;
+    }
+    .seccionNosotras {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cardPsicos {
+        display: flex;
+        width: 350px;
+        height: auto;
+        flex-direction: row;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .imgPsicoE {
+        margin: auto;
+    }
+    .imgPsicoR {
+        margin: auto;
+    }
+    .titleQuienes {
+        font-size: 18px;
+        font-weight: 600;
+        Line-height: 24px;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 300px;
+    }
+    .card-title {
+        font-size: 18px;
+        width: 200px;
+    }
+    .pPsicos,
+    .pPsicosR {
+        letter-spacing: -1px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .btnInfo {
+        margin: auto;
+    }
+    /* ******************* TESTIMONIOS - MEDIA QUERIES **************************** */
+    .titleTest {
+        font-size: 26px;
+        margin-left: -100px;
+        margin-top: -30px;
+    }
+    .testimP {
+        font-size: 16px;
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        padding: 40px;
+        margin-top: 70px;
+    }
+    .testimPa {
+        font-size: 16px;
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        padding: 50px;
+        margin-top: 80px;
+        Line-height: 28px;
+    }
+    .pAnonimo {
+        font-size: 12px;
+        margin-top: -90px;
+        margin-left: 50px;
+    }
+    .pAnonimoA {
+        font-size: 12px;
+        margin-top: -60px;
+        margin-left: 40px;
+    }
+    /* ******************* FORMULARIO - MEDIA QUERIES **************************** */
+    .conteinerForm {
+        display: none;
+    }
+    .form {
+        flex-direction: column-reverse;
+    }
+    .mostrarForm {
+        display: block;
+        margin-bottom: 50px;
+        margin-top: 130px;
+        padding-top: 30px;
+        background-size: contain;
+        background-position: center;
+        background-image: linear-gradient( 0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./assets/Fondo\ formulario.jpg);
+        backdrop-filter: blur(23px);
+        background-repeat: no-repeat;
+    }
+    .pForm {
+        margin-top: -10px;
+        margin-left: 25px;
+        padding-top: 30px;
+    }
+    .titleContac {
+        padding-top: 60px;
+        justify-content: center;
+    }
+    /* ******************* ARROW - MEDIA QUERIES **************************** */
+    .arrowUp {
+        margin-bottom: 40px;
+        margin-left: 85%;
+        width: 40px;
+    }
+}
